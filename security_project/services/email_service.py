@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 def send_mfa_token_to_email(email, current_session_mfa):
     print(f"INFO: enviando código MFA para o email {email}")
     sender_email = "opaseguranca73@gmail.com"
-    password = "lmyz yrtt hzad idkp"
+    password = "secret-password"
     receiver_email = email
 
     message = MIMEMultipart()
